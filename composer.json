@@ -1,0 +1,42 @@
+{
+    "name": "beephp/framework",
+    "description": "A lightweight PHP micro framework for building web applications.",
+    "keywords": ["framework", "php", "micro"],
+    "license": "MIT",
+    "homepage": "https://beephp.ir",
+    "support": {
+        "issues": "https://github.com/beephp/framework/issues",
+        "source": "https://github.com/beephp/framework"
+    },
+    "authors": [
+        {
+            "name": "usermp",
+            "email": "usermp76@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Beephp\\Framework\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Beephp\\Framework\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+    },
+    "suggest": {
+    }
+}
