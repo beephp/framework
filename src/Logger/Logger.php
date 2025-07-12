@@ -16,7 +16,7 @@ class Logger
      * @param string $logFile The path to the log file.
      * @throws \RuntimeException If the log directory cannot be created.
      */
-    public function __construct(string $name = 'app', string $logFile = __DIR__ . '/../../../../storage/logs/beephp.log')
+    public function __construct(string $name = 'app', string $logFile = __DIR__ . '/../../../../../storage/logs/beephp.log')
     {
         $this->ensureLogDirectoryExists(dirname($logFile));
 
