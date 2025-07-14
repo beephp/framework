@@ -47,6 +47,9 @@
     "require-dev": {
     },
     "autoload": {
+        "files": [
+            "src/Helpers/helpers.php"
+        ],
         "psr-4": {
             "Beephp\\Framework\\": "src/"
         }
